@@ -45,7 +45,8 @@ a:focus-visible, button:focus-visible, input:focus-visible { outline: 3px solid 
   padding: 0.85rem 1.5rem;
   font-family: var(--head); font-weight: 700; font-size: 0.95rem; letter-spacing: 0.02em;
 }
-.bar .right { font-weight: 600; font-size: 0.85rem; text-transform: uppercase; letter-spacing: 0.06em; }
+.bar .right { font-weight: 600; font-size: 0.85rem; text-transform: uppercase; letter-spacing: 0.06em; color: var(--white); text-decoration: none; border-bottom: 1.5px solid rgba(255,255,255,0.6); padding-bottom: 1px; }
+.bar .right:hover { border-bottom-color: var(--white); }
 
 /* Hero: deep blue with a standing-wave figure drawn in SVG */
 .hero {
@@ -142,7 +143,7 @@ footer .links { display: flex; justify-content: center; gap: 1.25rem; flex-wrap:
 <div class="bar">
   <div class="wrap">
     <span>TSC 2026</span>
-    <span class="right">Poster #701</span>
+    <a class="right" href="https://tsc2026.org/abstracts_html/paul-barnes.html" target="_blank" rel="noopener">Poster #701</a>
   </div>
 </div>
 
